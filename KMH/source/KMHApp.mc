@@ -12,7 +12,7 @@ class KMHApp extends App.AppBase {
 
     //! Return the initial view of your application here
     function getInitialView() {
-        return [ new MyView() ];
+        return [ new MenuView(), new MenuInputDelegate() ];
     }
 
 }

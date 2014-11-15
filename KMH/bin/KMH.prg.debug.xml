@@ -22,7 +22,7 @@
 <entry filename="source\\KMHUpdate.mc" lineNum="54" pc="268435925" symbol="onUpdate"/>
 <entry filename="source\\KMHUpdate.mc" lineNum="56" pc="268435964" symbol="onUpdate"/>
 <entry filename="source\\KMHApp.mc" lineNum="15" pc="268435986" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="9" pc="268436065" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="9" pc="268436095" symbol="&lt;init&gt;"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="33317" symbol="&lt;gre&gt;"/>
@@ -264,6 +264,7 @@
 <entry field="true" id="33180" symbol="SECONDS_PER_HOUR"/>
 <entry field="true" id="33347" symbol="MSG_ID_PROXIMITY_SEARCH"/>
 <entry id="33294" symbol="friday"/>
+<entry id="19" symbol="MenuView"/>
 <entry id="33201" method="true" symbol="testInstanceof"/>
 <entry id="32776" module="true" symbol="Toybox_System"/>
 <entry field="true" id="32935" symbol="SUB_SPORT_WARM_UP"/>
