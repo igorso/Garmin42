@@ -1,28 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="source\\KMHView.mc" lineNum="9" pc="268435458" symbol="onLayout"/>
-<entry filename="source\\KMHView.mc" lineNum="18" pc="268435507" symbol="onUpdate"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="17" pc="268435544" symbol="callback"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="18" pc="268435556" symbol="callback"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="22" pc="268435575" symbol="onLayout"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="23" pc="268435609" symbol="onLayout"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="27" pc="268435653" symbol="abc"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="30" pc="268435656" symbol="abc"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="31" pc="268435682" symbol="abc"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="34" pc="268435708" symbol="abc"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="35" pc="268435728" symbol="abc"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="38" pc="268435764" symbol="abc"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="41" pc="268435780" symbol="abc"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="47" pc="268435796" symbol="onUpdate"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="48" pc="268435813" symbol="onUpdate"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="50" pc="268435852" symbol="onUpdate"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="51" pc="268435869" symbol="onUpdate"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="53" pc="268435908" symbol="onUpdate"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="54" pc="268435925" symbol="onUpdate"/>
-<entry filename="source\\KMHUpdate.mc" lineNum="56" pc="268435964" symbol="onUpdate"/>
-<entry filename="source\\KMHApp.mc" lineNum="15" pc="268435986" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="9" pc="268436095" symbol="&lt;init&gt;"/>
+<entry filename="source\\TimeView.mc" lineNum="8" pc="268435458" symbol="onSwipe"/>
+<entry filename="source\\TimeView.mc" lineNum="10" pc="268435481" symbol="onSwipe"/>
+<entry filename="source\\TimeView.mc" lineNum="13" pc="268435503" symbol="onSwipe"/>
+<entry filename="source\\TimeView.mc" lineNum="15" pc="268435526" symbol="onSwipe"/>
+<entry filename="source\\TimeView.mc" lineNum="16" pc="268435543" symbol="onSwipe"/>
+<entry filename="source\\TimeView.mc" lineNum="20" pc="268435568" symbol="onSwipe"/>
+<entry filename="source\\TimeView.mc" lineNum="30" pc="268435588" symbol="onUpdate"/>
+<entry filename="source\\TimeView.mc" lineNum="31" pc="268435624" symbol="onUpdate"/>
+<entry filename="source\\TimeView.mc" lineNum="32" pc="268435636" symbol="onUpdate"/>
+<entry filename="source\\TimeView.mc" lineNum="34" pc="268435672" symbol="onUpdate"/>
+<entry filename="source\\TimeView.mc" lineNum="35" pc="268435691" symbol="onUpdate"/>
+<entry filename="source\\TimeView.mc" lineNum="37" pc="268435739" symbol="onUpdate"/>
+<entry filename="source\\TimeView.mc" lineNum="38" pc="268435785" symbol="onUpdate"/>
+<entry filename="source\\TimeView.mc" lineNum="39" pc="268435804" symbol="onUpdate"/>
+<entry filename="source\\TimeView.mc" lineNum="40" pc="268435855" symbol="onUpdate"/>
+<entry filename="source\\TimeView.mc" lineNum="41" pc="268435903" symbol="onUpdate"/>
+<entry filename="source\\MenuView.mc" lineNum="8" pc="268435958" symbol="onTap"/>
+<entry filename="source\\MenuView.mc" lineNum="16" pc="268436034" symbol="onUpdate"/>
+<entry filename="source\\MenuView.mc" lineNum="17" pc="268436070" symbol="onUpdate"/>
+<entry filename="source\\MenuView.mc" lineNum="18" pc="268436082" symbol="onUpdate"/>
+<entry filename="source\\MenuView.mc" lineNum="20" pc="268436118" symbol="onUpdate"/>
+<entry filename="source\\MenuView.mc" lineNum="21" pc="268436169" symbol="onUpdate"/>
+<entry filename="source\\MenuView.mc" lineNum="22" pc="268436188" symbol="onUpdate"/>
+<entry filename="source\\MenuView.mc" lineNum="23" pc="268436236" symbol="onUpdate"/>
+<entry filename="source\\MenuView.mc" lineNum="24" pc="268436284" symbol="onUpdate"/>
+<entry filename="source\\KmView.mc" lineNum="8" pc="268436336" symbol="onSwipe"/>
+<entry filename="source\\KmView.mc" lineNum="10" pc="268436359" symbol="onSwipe"/>
+<entry filename="source\\KmView.mc" lineNum="14" pc="268436404" symbol="onSwipe"/>
+<entry filename="source\\KmView.mc" lineNum="15" pc="268436421" symbol="onSwipe"/>
+<entry filename="source\\KmView.mc" lineNum="20" pc="268436469" symbol="onSwipe"/>
+<entry filename="source\\KmView.mc" lineNum="23" pc="268436544" symbol="onSwipe"/>
+<entry filename="source\\KmView.mc" lineNum="33" pc="268436564" symbol="onUpdate"/>
+<entry filename="source\\KmView.mc" lineNum="34" pc="268436600" symbol="onUpdate"/>
+<entry filename="source\\KmView.mc" lineNum="35" pc="268436612" symbol="onUpdate"/>
+<entry filename="source\\KmView.mc" lineNum="37" pc="268436648" symbol="onUpdate"/>
+<entry filename="source\\KmView.mc" lineNum="38" pc="268436667" symbol="onUpdate"/>
+<entry filename="source\\KmView.mc" lineNum="40" pc="268436715" symbol="onUpdate"/>
+<entry filename="source\\KmView.mc" lineNum="41" pc="268436761" symbol="onUpdate"/>
+<entry filename="source\\KmView.mc" lineNum="42" pc="268436780" symbol="onUpdate"/>
+<entry filename="source\\KmView.mc" lineNum="43" pc="268436831" symbol="onUpdate"/>
+<entry filename="source\\KmView.mc" lineNum="44" pc="268436879" symbol="onUpdate"/>
+<entry filename="source\\KMHView.mc" lineNum="9" pc="268436934" symbol="onLayout"/>
+<entry filename="source\\KMHView.mc" lineNum="18" pc="268436983" symbol="onUpdate"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="17" pc="268437020" symbol="callback"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="18" pc="268437032" symbol="callback"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="22" pc="268437051" symbol="onLayout"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="23" pc="268437085" symbol="onLayout"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="27" pc="268437129" symbol="abc"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="30" pc="268437132" symbol="abc"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="31" pc="268437158" symbol="abc"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="34" pc="268437184" symbol="abc"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="35" pc="268437204" symbol="abc"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="38" pc="268437240" symbol="abc"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="41" pc="268437256" symbol="abc"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="47" pc="268437272" symbol="onUpdate"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="48" pc="268437289" symbol="onUpdate"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="50" pc="268437328" symbol="onUpdate"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="51" pc="268437345" symbol="onUpdate"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="53" pc="268437384" symbol="onUpdate"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="54" pc="268437401" symbol="onUpdate"/>
+<entry filename="source\\KMHUpdate.mc" lineNum="56" pc="268437440" symbol="onUpdate"/>
+<entry filename="source\\KMHApp.mc" lineNum="15" pc="268437462" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="9" pc="268437609" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268437618" symbol="&lt;init&gt;"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="33317" symbol="&lt;gre&gt;"/>
@@ -55,12 +97,12 @@
 <entry field="true" id="32940" symbol="SUB_SPORT_CARDIO_TRAINING"/>
 <entry id="33316" symbol="&lt;deu&gt;"/>
 <entry id="32803" method="true" symbol="makeImageRequest"/>
-<entry id="15" module="true" symbol="Menus"/>
+<entry id="22" module="true" symbol="Menus"/>
 <entry id="3" module="true" symbol="globals_Rez_Drawables"/>
 <entry id="32775" module="true" symbol="Toybox_Position"/>
 <entry id="33312" symbol="&lt;dut&gt;"/>
 <entry id="32805" method="true" symbol="getMailbox"/>
-<entry field="true" id="10" symbol="code"/>
+<entry field="true" id="16" symbol="code"/>
 <entry id="32889" method="true" symbol="enableSensorEvents"/>
 <entry field="true" id="33263" symbol="currentCadence"/>
 <entry id="32773" module="true" symbol="Toybox_Application"/>
@@ -96,6 +138,7 @@
 <entry field="true" id="32951" symbol="subSport"/>
 <entry field="true" id="32893" symbol="pressure"/>
 <entry id="32849" method="true" symbol="enableLocationEvents"/>
+<entry field="true" id="25" symbol="id_cn2"/>
 <entry id="32984" method="true" symbol="drawLine"/>
 <entry id="33389" symbol="timestamp"/>
 <entry id="32941" method="true" symbol="createSession"/>
@@ -139,6 +182,7 @@
 <entry id="33278" symbol="february"/>
 <entry field="true" id="32902" symbol="SPORT_TENNIS"/>
 <entry field="true" id="33260" symbol="currentHeartRate"/>
+<entry id="11" object="true" symbol="KmInputDelegate"/>
 <entry field="true" id="33054" symbol="ANIM_TYPE_LINEAR"/>
 <entry id="33187" method="true" symbol="info"/>
 <entry id="33373" object="true" symbol="DeviceConfig"/>
@@ -170,15 +214,15 @@
 <entry field="true" id="33342" symbol="MSG_ID_NETWORK_KEY"/>
 <entry id="33012" method="true" symbol="abs"/>
 <entry id="33149" method="true" symbol="onTap"/>
-<entry id="12" object="true" symbol="MyView"/>
+<entry id="18" object="true" symbol="MyView"/>
 <entry id="32997" object="true" symbol="Long"/>
 <entry id="33196" method="true" symbol="lessThan"/>
-<entry field="true" id="18" symbol="image"/>
+<entry field="true" id="20" symbol="image"/>
 <entry field="true" id="33378" symbol="DATA_PAYLOAD_LENGTH"/>
-<entry id="14" method="true" symbol="abc"/>
+<entry id="21" method="true" symbol="abc"/>
 <entry id="32988" method="true" symbol="fillRectangle"/>
 <entry id="32850" object="true" symbol="Info"/>
-<entry id="16" module="true" symbol="Layouts"/>
+<entry id="23" module="true" symbol="Layouts"/>
 <entry id="32865" object="true" symbol="Stats"/>
 <entry field="true" id="32953" symbol="FONT_XTINY"/>
 <entry id="32989" method="true" symbol="fillRoundedRectangle"/>
@@ -202,7 +246,7 @@
 <entry id="33287" symbol="november"/>
 <entry id="33283" symbol="july"/>
 <entry field="true" id="32890" symbol="cadence"/>
-<entry id="8" object="true" symbol="KMHView"/>
+<entry id="14" object="true" symbol="KMHView"/>
 <entry id="33006" object="true" symbol="Dictionary"/>
 <entry id="32779" module="true" symbol="Toybox_Graphics"/>
 <entry id="33005" object="true" symbol="Method"/>
@@ -217,6 +261,7 @@
 <entry field="true" id="32924" symbol="SUB_SPORT_RECUMBENT"/>
 <entry id="33118" method="true" symbol="onUpdate"/>
 <entry field="true" id="32891" symbol="heartRate"/>
+<entry id="9" object="true" symbol="TimeView"/>
 <entry id="33214" method="true" symbol="testLessThan"/>
 <entry id="33409" method="true" symbol="transmit"/>
 <entry id="7" module="true" symbol="globals_Rez_Strings"/>
@@ -227,7 +272,7 @@
 <entry field="true" id="33261" symbol="averageHeartRate"/>
 <entry id="33123" symbol="mJustification"/>
 <entry id="33285" symbol="september"/>
-<entry field="true" id="9" symbol="timer"/>
+<entry field="true" id="15" symbol="timer"/>
 <entry field="true" id="33084" symbol="NUMBER_PICKER_CALORIES"/>
 <entry field="true" id="33383" symbol="deviceNumber"/>
 <entry id="32999" object="true" symbol="Double"/>
@@ -264,7 +309,7 @@
 <entry field="true" id="33180" symbol="SECONDS_PER_HOUR"/>
 <entry field="true" id="33347" symbol="MSG_ID_PROXIMITY_SEARCH"/>
 <entry id="33294" symbol="friday"/>
-<entry id="19" symbol="MenuView"/>
+<entry id="10" object="true" symbol="MenuView"/>
 <entry id="33201" method="true" symbol="testInstanceof"/>
 <entry id="32776" module="true" symbol="Toybox_System"/>
 <entry field="true" id="32935" symbol="SUB_SPORT_WARM_UP"/>
@@ -373,7 +418,7 @@
 <entry id="32785" module="true" symbol="Toybox_Test"/>
 <entry id="33077" object="true" symbol="MenuInputDelegate"/>
 <entry id="33233" method="true" symbol="callback"/>
-<entry field="true" id="11" symbol="avrSpeed"/>
+<entry field="true" id="17" symbol="avrSpeed"/>
 <entry id="33272" symbol="latitude"/>
 <entry id="33228" method="true" symbol="testSystemError"/>
 <entry id="33226" method="true" symbol="testLocationDegree"/>
@@ -517,11 +562,13 @@
 <entry field="true" id="33057" symbol="ANIM_TYPE_EASE_IN_OUT"/>
 <entry id="33143" symbol="mX"/>
 <entry field="true" id="32967" symbol="COLOR_DK_YELLOW"/>
+<entry id="8" object="true" symbol="TimeInputDelegate"/>
 <entry id="32982" method="true" symbol="drawRoundedRectangle"/>
 <entry field="true" id="32843" symbol="QUALITY_GOOD"/>
 <entry field="true" id="33367" symbol="MSG_CODE_EVENT_QUE_OVERFLOW"/>
 <entry field="true" id="32896" symbol="SPORT_CYCLING"/>
 <entry field="true" id="33049" symbol="KEY_LEFT"/>
+<entry id="13" object="true" symbol="KmView"/>
 <entry field="true" id="33258" symbol="totalAscent"/>
 <entry field="true" id="32908" symbol="SPORT_SNOWBOARDING"/>
 <entry field="true" id="33243" symbol="startLocation"/>
@@ -534,6 +581,7 @@
 <entry field="true" id="33158" symbol="BEHAVIOR_ON_BACK"/>
 <entry id="33148" method="true" symbol="onKey"/>
 <entry field="true" id="33418" symbol="DEFAULT_MESSAGE_PERIOD"/>
+<entry field="true" id="12" symbol="km"/>
 <entry field="true" id="33359" symbol="MSG_CODE_EVENT_TRANSFER_TX_COMPLETED"/>
 <entry field="true" id="32840" symbol="QUALITY_LAST_KNOWN"/>
 <entry id="33397" method="true" symbol="release"/>
@@ -589,7 +637,7 @@
 <entry id="33020" method="true" symbol="size"/>
 <entry id="33423" method="true" symbol="testBreak"/>
 <entry id="33070" object="true" symbol="InputEvent"/>
-<entry id="13" object="true" symbol="KMHApp"/>
+<entry id="19" object="true" symbol="KMHApp"/>
 <entry id="32866" method="true" symbol="println"/>
 <entry id="33072" object="true" symbol="BehaviorDelegate"/>
 <entry id="33000" object="true" symbol="Boolean"/>
@@ -630,7 +678,7 @@
 <entry field="true" id="32877" symbol="sec"/>
 <entry field="true" id="33335" symbol="MSG_ID_RF_EVENT"/>
 <entry id="32995" symbol="mDrawContext"/>
-<entry field="true" id="17" symbol="id_monkey"/>
+<entry field="true" id="24" symbol="id_monkey"/>
 <entry id="33117" method="true" symbol="onShow"/>
 <entry field="true" id="33404" symbol="searchTimeoutHighPriority"/>
 <entry id="33392" symbol="setPayloadWithOffset"/>
@@ -699,6 +747,30 @@
 <localVars/>
 <annotations/>
 <functions>
+<functionEntry name="onSwipe">
+<param id="evt"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onUpdate">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onTap">
+<param id="evt"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onUpdate">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onSwipe">
+<param id="evt"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onUpdate">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
 <functionEntry name="onLayout">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Load your resources here<br/></div>]]></documentation>
