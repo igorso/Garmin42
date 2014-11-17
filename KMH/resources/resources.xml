@@ -1,6 +1,9 @@
 <resources>
-    <bitmaps>
-        <bitmap id="id_monkey" filename="images/monkey.png" />
-        <bitmap id="id_cn2" filename="images/cn2.png" />
-    </bitmaps>
+	<bitmaps>
+		<bitmap id="id_monkey" filename="images/monkey.png" />
+		<bitmap id="id_chuckNorris" filename="images/chuckNorris.png" />
+		<bitmap id="id_toughGuy" filename="images/toughGuy.png" />
+		<bitmap id="id_skinnyGuy" filename="images/weakGuy.png" />
+		<bitmap id="id_weakGuy" filename="images/weakGuy2.png" />
+	</bitmaps>
 </resources>

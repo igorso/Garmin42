@@ -8,9 +8,9 @@ class MeasureInputDelegate extends Ui.BehaviorDelegate
 
 class MeasureView extends Ui.View
 {
-	var punchString;
-	var counter;
-	var timer;
+	var punchString;	// take the punch power as string
+	var counter;		// will count 3 seconds to measure the punch
+	var timer;			// updates the callback every second
 	
     //! Constructor
     function initialize()
@@ -18,10 +18,12 @@ class MeasureView extends Ui.View
     	counter = 3;
     	punchString = "0";
     	
+    	// Heart Rate was used as impact sensor
         Snsr.setEnabledSensors( [Snsr.SENSOR_HEARTRATE] );
         Snsr.enableSensorEvents( method(:onSnsr) );
     }
     
+    // Converts sampling to punch power
     function onSnsr(sensor_info)
     {
         var HR = sensor_info.heartRate;
@@ -41,9 +43,14 @@ class MeasureView extends Ui.View
         counter -= 1;
         if(counter == 0) {
         	var resultView = new ResultView();
-        	resultView.setPunchString(punchString);
+        	
+        	// Send the measured power punch to another view
+        	resultView.setPunchStrenght(punchString.toNumber());
+        	
+        	// Release the sensors
         	Snsr.enableSensorEvents(null);
         	Snsr.setEnabledSensors([]);
+        	
     		Ui.switchToView(resultView, new ResultInputDelegate(), Ui.SLIDE_IMMEDIATE );	
     	}
         Ui.requestUpdate();
@@ -71,6 +78,12 @@ class MeasureView extends Ui.View
         
         // Just to see if HR can be used to simulate punch power
         dc.drawText(x, y+45, Gfx.FONT_LARGE, punchString, Gfx.TEXT_JUSTIFY_CENTER);
+    }
+    
+    //! Called when this View is removed from the screen. Save the
+    //! state of your app here.
+    function onHide() {
+    	timer.stop();
     }
 }
 
