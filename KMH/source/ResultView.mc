@@ -2,8 +2,7 @@ using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.Timer as Timer;
 using Toybox.System as Sys;
-//using Toybox.Lang.String; as String;
-
+using Toybox.Time.Gregorian as Calendar;
 
 class ResultInputDelegate extends Ui.BehaviorDelegate
 {
@@ -34,15 +33,19 @@ class ResultView extends Ui.View {
     function setPunchStrenght(pS) {
     	strenght = pS;
     	
-    	if( strenght > table[0] ) {
-    		table[2] = table[1];
-    		table[1] = table[0];
-    		table[0] = strenght;
-    	} else if (strenght > table[1] ) {
-    		table[2] = table[1];
-    		table[1] = strenght;
-    	} else {
-    		table[2] = strenght;
+        var now = Time.now();
+        var info = Calendar.info(now, Time.FORMAT_LONG);
+    	
+    	// Sys.println(strenght);
+    	if( strenght > highScoreStrenght[0] ) {
+    		highScoreStrenght[2] = highScoreStrenght[1]; highScoreDate[2] = highScoreDate[1];
+    		highScoreStrenght[1] = highScoreStrenght[0]; highScoreDate[1] = highScoreDate[0];
+    		highScoreStrenght[0] = strenght;             highScoreDate[0] = info;
+    	} else if (strenght > highScoreStrenght[1] ) {
+    		highScoreStrenght[2] = highScoreStrenght[1]; highScoreDate[2] = highScoreDate[1];
+    		highScoreStrenght[1] = strenght;             highScoreDate[1] = info;
+    	} else if (strenght > highScoreStrenght[2] ) {
+    		highScoreStrenght[2] = strenght;     		 highScoreDate[2] = info;
     	}
     	
     }
